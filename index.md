@@ -3,8 +3,15 @@ layout: blocks
 title: Homepage
 date: 2021-08-11T23:00:00.000+00:00
 page_sections:
-- template: simple-header
-  block: header-3
+- template: navigation-header
+  block: header-1
+  navigation:
+  - link: "/credits"
+    link_text: Credits
+  - link: "/about"
+    link_text: About
+  - link: "/"
+    link_text: Home
   logo: "/uploads/2021/08/12/site_logo_250x2.png"
 - template: navigation-header-w-button
   block: header-2

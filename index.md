@@ -1,12 +1,17 @@
 ---
 layout: blocks
 title: Homepage
-date: 2021-08-11 23:00:00 +0000
+date: 2021-08-11T23:00:00.000+00:00
 page_sections:
+- template: simple-header
+  block: header-3
+  logo: "/uploads/2021/08/12/site_logo_250x2.png"
 - template: navigation-header-w-button
   block: header-2
   logo: "/uploads/2021/08/12/site_logo_250x2.png"
   navigation:
+  - link: ''
+    link_text: ''
   - link: "/"
     link_text: Ubuild
   - link: "#swap"
